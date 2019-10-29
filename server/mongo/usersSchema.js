@@ -41,13 +41,13 @@ function validateUser(user, auth) {
     if (auth) {
         const schema = {
             username: Joi.string().min(3).max(50).required(),
-            // email: Joi.string().min(5).max(255).required().email(),
+            email: Joi.string().min(5).max(255).required().email(),
             password: Joi.string().min(3).max(255).required()
         };
         // console.log(schema);
         // console.log("USER: ", user);
     
-        return Joi.validate({username: user.username, password: user.password}, schema);
+        return Joi.validate(user, schema);
     } else {
         return Joi.invalid();
     }

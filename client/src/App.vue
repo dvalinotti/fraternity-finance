@@ -4,6 +4,20 @@
   </div>
 </template>
 
+<script>
+import router from './router';
+
+export default {
+  name: 'app',
+  created() {
+    let token = localStorage.getItem('session');
+    if (!token) {
+      router.push('/login')
+    }
+  }
+}
+</script>
+
 <style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;

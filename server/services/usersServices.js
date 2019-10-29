@@ -27,8 +27,9 @@ async function logout(key) {
 }
 
 async function authUser(body) {
-    const {error} = validate(body, true);
-    if (error) return { success: false, error: "Invalid submission" }; 
+    console.log(body);
+    // const {error} = validate(body, true);
+    // if (error) return { success: false, error: "Invalid submission" }; 
     
     try {
         let user = await User.findOne({ username: body.username });
@@ -36,6 +37,7 @@ async function authUser(body) {
         if (user) {
             bcrypt.genSalt()
             let compare = await bcrypt.compare(body.password, user.password);
+            // console.log(compare);
             if (compare) {
                 const existingSession = await Session.findOne({ username: body.username })
                 
@@ -75,9 +77,9 @@ async function authUser(body) {
 }
 
 async function createUser(body) {
-    // console.log(body);
-    const {error} = validate(body, false);
-    if (error) return { success: false, error: "Invalid submission" }; 
+    console.log(body);
+    // const {error} = validate(body, false);
+    // if (error) return { success: false, error: "Invalid submission" }; 
 
     try {
         //find an existing user
@@ -96,6 +98,7 @@ async function createUser(body) {
         const token = user.generateAuthToken();
         let session = new Session({
             token: token,
+            username: user.username,
             timestamp: new Date()
         });
         await session.save();
