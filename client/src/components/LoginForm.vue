@@ -153,8 +153,9 @@ export default {
 }
 
 .login-field {
-      border-bottom: 1px solid gray;
-      padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 5px;
+  margin: 4px 0 15px;
 }
 
 .slide-fade-enter-active {
