@@ -1,7 +1,7 @@
 import { authService } from './services';
 import router from '../router'
 
-const user = JSON.parse(localStorage.getItem('session'));
+const user = localStorage.getItem('session');
 
 const state = user
   ? { status: { loggedIn: true }, user, token: null }

@@ -35,9 +35,9 @@ async function authUser(body) {
         let user = await User.findOne({ username: body.username });
 
         if (user) {
-            bcrypt.genSalt()
+            bcrypt.genSalt();
             let compare = await bcrypt.compare(body.password, user.password);
-            // console.log(compare);
+            console.log(compare);
             if (compare) {
                 const existingSession = await Session.findOne({ username: body.username })
                 
@@ -54,6 +54,7 @@ async function authUser(body) {
                         timestamp: new Date()
                     });
                     await session.save();
+
                     return {
                         success: true,
                         username: user.username,

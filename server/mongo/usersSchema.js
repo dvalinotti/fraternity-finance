@@ -29,11 +29,11 @@ const UsersSchema = new mongoose.Schema({
 });
 
 UsersSchema.methods.generateAuthToken = function () {
-    const token = jwt.sign({
+     //get the private key from the config file -> environment variable
+    return jwt.sign({
         _id: this._id,
         password: this.password
-    }, config.get('privateKey')); //get the private key from the config file -> environment variable
-    return token;
+    }, config.get('privateKey'));
 }
 
 //function to validate user 

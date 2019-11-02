@@ -1,14 +1,17 @@
 <template>
   <div id="app">
+    <header-component></header-component>
     <router-view/>
   </div>
 </template>
 
 <script>
 import router from './router';
+import HeaderComponent from "./components/HeaderComponent";
 
 export default {
   name: 'app',
+  components: {HeaderComponent},
   created() {
     let token = localStorage.getItem('session');
     if (!token) {

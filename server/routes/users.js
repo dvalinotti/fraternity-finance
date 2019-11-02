@@ -9,6 +9,7 @@ router.get('/', function(req, res, next) {
 router.post('/auth', async function(req, res, next) {
   try {
     const responseObject = await authUser(req.body);
+    // console.log(responseObject);
   
     if (responseObject.success && responseObject.token) {
       res.header("x-auth-token", responseObject.token).json({
