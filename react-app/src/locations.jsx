@@ -1,1 +1,1 @@
-export default ["/", "/budget"];
+export default ['/', '/budget'];

@@ -1,25 +1,28 @@
 import React from 'react';
 import './index.css';
-import {MuiThemeProvider as ThemeProvider, createMuiTheme} from "@material-ui/core";
+import {
+  MuiThemeProvider as ThemeProvider,
+  createMuiTheme,
+} from '@material-ui/core';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import makeStyles from '@material-ui/core/styles/makeStyles';
+import orange from '@material-ui/core/colors/orange';
 import HomeView from './views/HomeView';
-import TabBar from "./components/TabBar";
-import makeStyles from "@material-ui/core/styles/makeStyles";
-import orange from "@material-ui/core/colors/orange";
-import BudgetView from "./views/BudgetView";
+import TabBar from './components/TabBar';
+import BudgetView from './views/BudgetView';
 
 const theme = createMuiTheme({
   palette: {
     type: 'dark',
-    secondary: orange
-  }
+    secondary: orange,
+  },
 });
 
 const styles = makeStyles({
   main: {
     display: 'flex',
-    height: "inherit"
-  }
+    height: 'inherit',
+  },
 });
 
 export default function App() {
@@ -27,7 +30,7 @@ export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className={classes.main}>
-        <TabBar/>
+        <TabBar />
         <Router>
           <Switch>
             <Route to="/" component={HomeView} />

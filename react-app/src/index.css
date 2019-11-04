@@ -1,14 +1,13 @@
 html {
-    height: 100vh;
+  height: 100vh;
 }
 
 body {
-    height: inherit;
-    margin: 0;
-    background-color: #1f262d;
+  height: inherit;
+  margin: 0;
+  background-color: #1f262d;
 }
 
 body > div {
-    height: inherit;
-
+  height: inherit;
 }

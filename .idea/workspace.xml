@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f11a792-1a44-496b-a2a1-858859ed13fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/CONTRIBUTING.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/PULL_REQUEST_TEMPLATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/babel.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/components/TabBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/components/TabBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/components/hello-world/hello-world.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/components/hello-world/hello-world.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/locations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/locations.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/views/BudgetView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/views/BudgetView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/src/views/HomeView.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/src/views/HomeView.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-app/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-app/webpack/webpack.common.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,16 +28,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="XSLT Stylesheet" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1T2INqvA99rvvH3LwXtxUFNcrAj" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:/Program Files/nodejs/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dan\git\fraternity-finance\react-app\src\components" />
+      <recent name="C:\Users\Dan\git\fraternity-finance\react-app\src\views" />
+      <recent name="C:\Users\Dan\git\fraternity-finance\react-app\src\views\home" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -61,6 +114,9 @@
       <option name="presentableId" value="Default" />
       <updated>1572651726629</updated>
       <workItem from="1572651727962" duration="707000" />
+      <workItem from="1572653735863" duration="1078000" />
+      <workItem from="1572753014082" duration="3922000" />
+      <workItem from="1572837101515" duration="6028000" />
     </task>
     <servers />
   </component>
@@ -72,7 +128,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

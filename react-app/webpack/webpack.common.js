@@ -50,7 +50,7 @@ module.exports = {
     ],
   },
   serve: {
-    add: app => {
+    add: (app) => {
       app.use(convert(history()));
     },
     content: commonPaths.entryPath,
